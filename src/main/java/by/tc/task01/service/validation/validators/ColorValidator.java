@@ -8,7 +8,9 @@ import by.tc.task01.service.validation.ValueValidator;
  */
 public class ColorValidator implements ValueValidator {
     /**
-     * {@inheritDoc}
+     *
+     * @param obj value to validate
+     * @return if matches
      */
     @Override
     public boolean validate(Object obj) {

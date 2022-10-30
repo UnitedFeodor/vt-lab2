@@ -21,7 +21,10 @@ public class VacuumCleaner extends Appliance{
 	}
 
 	/**
-	 * {@inheritDoc}
+	 *
+	 * @param key field to match for
+	 * @param value value of field
+	 * @return true if matches
 	 */
 	@Override
 	public boolean matches(String key, Object value) {
